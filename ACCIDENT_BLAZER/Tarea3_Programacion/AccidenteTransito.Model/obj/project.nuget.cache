@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h6ldU0sWGZhTqIyF8bi6VSRP66CEWUYhV7MqoMCtTstbeaxFubbbWNIV3J9iayh8tw9/17I+1b0dC4jnqVJjEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\Tarea3_Programacion\\AccidenteTransito.Model\\AccidenteTransito.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

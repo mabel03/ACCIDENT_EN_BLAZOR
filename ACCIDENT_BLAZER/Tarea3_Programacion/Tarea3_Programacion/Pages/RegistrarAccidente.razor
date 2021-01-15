@@ -1,0 +1,107 @@
+﻿@page "/RegistrarAccidente"
+@using AccidenteTransito.Model
+@using Interfaces
+@inject IAccidenteService AccidenteService
+
+<h3>Registrar accidente</h3>
+<br>
+<br>
+<EditForm Model="@registrar">
+    <table class="table">
+        <tr>
+            <td>Fecha y Hora del accidente: </td>
+            <td><input type="text" @bind="registrar.Fecha_Hora" /></td>
+        </tr>
+        <tr>
+            <td>Lugar: </td>
+            <td><input type="text" @bind="registrar.Lugar" /></td>
+        </tr>
+        <tr>
+            <td>Lontitud: </td>
+            <td><input type="text" @bind="registrar.Latitud" /></td>
+        </tr>
+        <tr>
+            <td>Longitud: </td>
+            <td><input type="text" @bind="registrar.Longitud" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>
+                    <input type="submit" value="Enviar" class="btn btn-success" @onclick="EnviarDatos" />
+                    <input type="submit" value="Cancelar" class="btn btn-danger" @onclick="Cancelar" />
+                </center>
+            </td>
+        </tr>
+    </table>
+</EditForm>
+<center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr style="border-color:red;">
+    <h2>*-TABLA DE ACCIDENTES-*</h2>
+    <hr style="border-color:red;">
+    <br>
+
+    @if (accidentes == null)
+    {
+        <p>Cargando...</p>
+    }
+    else
+    {
+        <tables class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th>Codigo </th>
+                    <th>Fecha y hora</th>
+                    <th>Lugar</th>
+                    <th>Latitud</th>
+                    <th>Longitud</th>
+                </tr>
+            </thead>
+            <tbody class="table-dark">
+                @foreach (var accidente in accidentes)
+                {
+                    <tr>
+                        <td>@accidente.CodigoAccidentes</td>
+                        <td>@accidente.Fecha_Hora</td>
+                        <td>@accidente.Lugar</td>
+                        <td>@accidente.Latitud</td>
+                        <td>@accidente.Longitud</td>
+                    </tr>
+
+                }
+            </tbody>
+
+        </tables>
+    }
+</center>
+<br>
+<br>
+@code {
+    Accidente registrar = new Accidente();
+    private IEnumerable<Accidente> accidentes;
+
+    protected void Cancelar()
+    {
+
+    }
+    protected async Task EnviarDatos()
+    {
+        await AccidenteService.Enviar(registrar);
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            accidentes = await AccidenteService.GetAccidente();
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+    }
+}

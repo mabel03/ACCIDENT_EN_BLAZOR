@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\bin\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.deps.json
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\bin\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.dll
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\bin\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.pdb
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\obj\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\obj\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\obj\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.AssemblyInfo.cs
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\obj\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.dll
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\obj\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.pdb
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\bin\Debug\netstandard2.0\AccidenteTransito.Model.dll
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\bin\Debug\netstandard2.0\AccidenteTransito.Model.pdb
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\obj\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.csproj.CopyComplete
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Data.Dapper\obj\Debug\netstandard2.0\AccidenteTransito.Data.Dapper.csproj.CoreCompileInputs.cache

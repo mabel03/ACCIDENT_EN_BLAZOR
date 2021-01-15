@@ -1,0 +1,63 @@
+﻿@page "/ListadoCasos"
+@using AccidenteTransito.Model
+@using Interfaces
+@inject IInvolucradoService InvolucradoService
+<h3>Lista de Casos</h3>
+<br>
+<br>
+<button type="button" class="btn btn-success">Exportar datos a PDF</button>
+<br>
+<br>
+@if (accidentes == null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th style="color:white">Codigo </th>
+                <th style="color:white">Caso Involucrado</th>
+                <th style="color:white">Nombre</th>
+                <th style="color:white">Apellido</th>
+                <th style="color:white">Telefono</th>
+                <th style="color:white">Correo</th>
+                <th style="color:white">Cedula</th>
+            </tr>
+        </thead>
+        <tbody class="table-dark">
+            @foreach (var accidente in accidentes)
+            {
+                <tr>
+                    <td>@accidente.IdPersona</td>
+                    <td>@accidente.CasoInvolucrado</td>
+                    <td>@accidente.Nombre</td>
+                    <td>@accidente.Apellido</td>
+                    <td>@accidente.Telefono</td>
+                    <td>@accidente.Correo</td>
+                    <td>@accidente.Cedula</td>
+                </tr>
+
+            }
+        </tbody>
+
+    </table>
+}
+
+@code {
+
+    private IEnumerable<Involucrado> accidentes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            accidentes = await InvolucradoService.GetInvolucrados();
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+    }
+}

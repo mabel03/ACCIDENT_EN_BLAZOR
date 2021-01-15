@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Model\bin\Debug\netstandard2.0\AccidenteTransito.Model.deps.json
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Model\bin\Debug\netstandard2.0\AccidenteTransito.Model.dll
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Model\bin\Debug\netstandard2.0\AccidenteTransito.Model.pdb
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Model\obj\Debug\netstandard2.0\AccidenteTransito.Model.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Model\obj\Debug\netstandard2.0\AccidenteTransito.Model.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Model\obj\Debug\netstandard2.0\AccidenteTransito.Model.AssemblyInfo.cs
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Model\obj\Debug\netstandard2.0\AccidenteTransito.Model.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Model\obj\Debug\netstandard2.0\AccidenteTransito.Model.dll
+C:\Users\User\Desktop\Tarea3_Programacion\AccidenteTransito.Model\obj\Debug\netstandard2.0\AccidenteTransito.Model.pdb
